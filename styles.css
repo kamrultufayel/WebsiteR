@@ -1,0 +1,75 @@
+/* Reset some default styles for cross-browser consistency */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+nav {
+    background-color: #444;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+section {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+article {
+    flex: 1;
+    margin-right: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Responsive design for smaller screens */
+@media screen and (max-width: 768px) {
+    section {
+        flex-direction: column;
+    }
+
+    article {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+}
