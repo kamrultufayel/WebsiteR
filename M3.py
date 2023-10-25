@@ -15,7 +15,7 @@ def signup():
         password = request.form['password']
         confirm_password = request.form['confirm-password']
         
-        # Placeholder: Add your signup logic here
+        
         
         # For now, redirecting to the home page
         return redirect(url_for('home'))
