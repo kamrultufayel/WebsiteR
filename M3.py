@@ -20,7 +20,7 @@ def signup():
         # For now, redirecting to the home page
         return redirect(url_for('home'))
 
-    return render_template('signup.html')
+    return render_template('index2.html')
 
 if __name__ == '__main__':
     app.run(debug=True)
